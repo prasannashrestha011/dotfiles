@@ -124,7 +124,7 @@ export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/emulator:$ANDRO
 export NODE_OPTIONS="--dns-result-order=ipv4first"
 ##custom prompt 
 
-PS1="\[\e[1;32m\]\u \[\e[1;34m\]\w\[\e[0m\]\[\e[1;33m\]\$(__git_ps1 ' (%s)')\[\e[0m\]$ "
+PS1=" \[\e[1;32m\]\u \[\e[1;34m\] \w\[\e[0m\]\[\e[1;33m\]\$(__git_ps1 ' (%s)')\[\e[0m\]\$ "
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
