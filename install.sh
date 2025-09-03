@@ -97,7 +97,7 @@ fi
 # -------------------------------
 # 5️⃣ Rofi
 # -------------------------------
-install_configs "rofi" "$HOME/.config/rofi" "Rofi config"
+install_configs "rofi/rofi" "$HOME/.config/rofi" "Rofi config"
 
 # -------------------------------
 # 6️⃣ Themes
