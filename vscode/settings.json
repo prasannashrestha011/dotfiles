@@ -1,0 +1,60 @@
+{
+  "workbench.iconTheme": "file-icons",
+  "files.exclude": {
+    "": true,
+    "**/.git": false
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "go.toolsManagement.autoUpdate": true,
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "python": false,
+    "typescriptreact": false
+  },
+  "editor.fontFamily": "'Fira Code', 'monospace', monospace",
+  "explorer.confirmPasteNative": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "vim.useSystemClipboard": true,
+  "editor.formatOnSave": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "mobile-preview.deviceOptions": [
+    "iPhone 13 Pro",
+    "iPhone 15",
+    "iPhone 15 Pro Max",
+    "iPhone 12 Mini (Pro)",
+    "iPhone 14 Pro (Pro)",
+    "iPhone 11 (Pro)",
+    "iPad Pro 11 (Pro)",
+    "iPad Air (Pro)",
+    "iPad Mini (Pro)",
+    "Samsung Galaxy S23 (Pro)",
+    "Google Pixel 7 (Pro)",
+    "OnePlus 10 Pro (Pro)",
+    "Xiaomi 13 (Pro)",
+    "Samsung Galaxy Tab S8 (Pro)",
+    "Google Pixel Tablet (Pro)"
+  ],
+  "mobile-preview.url": "http://localhost:3000",
+  "mobile-preview.device": "iPhone 15"
+}

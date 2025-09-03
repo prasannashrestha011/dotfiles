@@ -1,0 +1,12 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+k s",
+        "command": "workbench.action.files.saveFiles"
+    },
+    {
+        "key": "ctrl+b f",
+        "command": "github.copilot.completions.toggle",
+        "when": "github.copilot.activated"
+    }
+]

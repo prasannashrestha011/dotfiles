@@ -104,6 +104,15 @@ install_configs "rofi/rofi" "$HOME/.config/rofi" "Rofi config"
 # -------------------------------
 install_configs "themes" "$HOME/.themes" "themes"
 
+#5️⃣ VSCode Extensions
+echo "Installing VSCode extensions..."
+if [ -f "$HOME/dotfiles/vscode/extensions.txt" ]; then
+    cat "$HOME/dotfiles/vscode/extensions.txt" | xargs -L 1 code --install-extension
+fi
+#my vscode settings and key bindings
+mkdir -p "$HOME/.config/Code/User"
+cp -f "$HOME/dotfiles/vscode/settings.json" "$HOME/.config/Code/User/settings.json"
+cp -f "$HOME/dotfiles/vscode/keybindings.json" "$HOME/.config/Code/User/keybindings.json"
 # -------------------------------
 # 7️⃣ Icons
 # -------------------------------
