@@ -1,0 +1,30 @@
+
+#!/bin/bash
+# git-new.sh - automate repo setup for new/existing project
+
+if [ -z "$1" ]; then
+  echo "Usage: git-new <repo-url>"
+  exit 1
+fi
+
+REPO_URL=$1
+
+# Initialize repo if not already initialized
+if [ ! -d ".git" ]; then
+  git init
+fi
+
+# Add and commit everything
+git add .
+git commit -m "Initial commit" 2>/dev/null || echo "Nothing new to commit."
+
+# Add remote if not exists
+if ! git remote | grep -q origin; then
+  git remote add origin "$REPO_URL"
+fi
+
+# Rename branch to main
+git branch -M main
+
+# Push to GitHub
+git push -u origin main
