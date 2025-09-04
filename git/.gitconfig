@@ -1,0 +1,9 @@
+[init]
+    defaultBranch=main
+[user]
+	name = prasannashrestha011
+	email = shresthaprashanna27@gmail.com
+[safe]
+    directory = /mnt/sda1/Projects/*
+[credential]
+	helper = store

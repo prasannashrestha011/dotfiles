@@ -118,6 +118,10 @@ cp -f "$HOME/dotfiles/vscode/keybindings.json" "$HOME/.config/Code/User/keybindi
 # -------------------------------
 install_configs "icons" "$HOME/.icons" "icons"
 
+#--------------------------
+cp -f "$HOME/dotfiles/git/.gitconfig" "$HOME/.gitconfig"
+
+
 # -------------------------------
 # 8️⃣ Make scripts executable
 # -------------------------------
