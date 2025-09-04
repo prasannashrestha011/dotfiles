@@ -31,4 +31,4 @@ chmod +x install.sh
 
 ## Images
 
-![Desktop]("./assets/home.png")
+![Desktop](./assets/home.png)
