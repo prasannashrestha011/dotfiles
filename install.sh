@@ -123,7 +123,11 @@ install_configs "icons" "$HOME/.icons" "icons"
 # -------------------------------
 echo "Setting executable permissions..."
 [ -d "$HOME/bin" ] && chmod +x "$HOME/bin"/* 2>/dev/null || true
-
+#neo fetch config 
+cp -rf "$HOME/dotfiles/neofetch/neofetch/" "$HOME/.config/neofetch/"
+#assets configurations 
+cp -f "$HOME/dotfiles/assets/background.jpg" "$HOME/.local/share/backgrounds/background.jpg"
+cp -f "$HOME/dotfiles/assets/profile.jpeg" "$HOME/.face"
 # -------------------------------
 # 9️⃣ Finalize
 # -------------------------------
