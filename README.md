@@ -11,7 +11,12 @@ This repository contains my personal configuration files and setup scripts to qu
 - **`nvim/`** - Neovim configuration files.
 - **`rofi/`** - Rofi themes and configurations.
 - **`tmux/`** - Tmux configuration files.
-- **`themes/`** - GTK, icon, and terminal themes.
+- **`themes/`** - GTK , and shell themes.
+- ** `icons/`** - cursor and app icons
+- ** `neofetch`** - Default Neofetch configuration to display system info in the terminal.
+- ** `vscode/`** -Contains settings.json for editor preferences and a list of extensions for my development setup.
+- ** `assets/`** - Wallpapers, profile image and terminal font.
+- ** `bins/`** - personal scripts.
 
 ## Installation
 
