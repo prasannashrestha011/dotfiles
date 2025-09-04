@@ -28,3 +28,7 @@ cd dotfiles
 chmod +x install.sh
 ./install.sh
 ```
+
+## Images
+
+![Desktop]("./assets/home.png")
