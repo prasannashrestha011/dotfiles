@@ -126,6 +126,9 @@ echo "Setting executable permissions..."
 #neo fetch config 
 cp -rf "$HOME/dotfiles/neofetch/neofetch/" "$HOME/.config/neofetch/"
 #assets configurations 
+mkdir -p "$HOME/.local/share/backgrounds/"
+mkdir -p "$HOME/.face"
+
 cp -f "$HOME/dotfiles/assets/background.jpg" "$HOME/.local/share/backgrounds/background.jpg"
 cp -f "$HOME/dotfiles/assets/profile.jpeg" "$HOME/.face"
 # -------------------------------
